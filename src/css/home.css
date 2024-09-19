@@ -1,0 +1,112 @@
+/*
+@author Jack Philippi
+@description @NewRetroWave - I don't own any rights to the NewRetroWave logo or name 👽
+
+Font (Outrun Future) by PressGang Studios
+https://comicfontsby.tehandeh.com/fonts/outrun-future/
+*/
+
+@font-face {
+  font-family: OutRun;
+  src: url("https://jackphilippi.com.au/cdn/fonts/outrun_future.otf")
+    format("opentype");
+}
+
+.glowing {
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-family: "Fascinate", system-ui;
+  font-weight: 800;
+  color: transparent;
+  position: relative;
+  display: block;
+  -webkit-text-stroke: 2px #f4c6f4;
+  animation: glow 2.5s linear infinite;
+}
+
+.normal {
+  font-size: 3rem;
+  font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  color: transparent;
+  position: relative;
+  display: block;
+  -webkit-text-stroke: 2px #f4c6f4;
+}
+.outrun {
+  position: relative;
+  z-index: 100;
+  font-family: "OutRun", "Helvetica", sans-serif;
+  font-size: 4rem;
+  color: #fa26f7;
+  text-transform: uppercase;
+  letter-spacing: -10px;
+  transform: rotate(-3deg) skew(-3deg);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000;
+  animation: shiver 0.2s infinite;
+}
+
+.App {
+  text-align: center;
+  padding: 50px;
+}
+
+.glass-button {
+  width: 25%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 10px 20px;
+  font-size: 3rem;
+  color: #fa26f7;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background 0.2s ease;
+  cursor: pointer;
+  font-family: "Fascinate", system-ui;
+  font-weight: 400;
+}
+
+.glass-button:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+.glass-button:active {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.video-container {
+  margin-top: 30px;
+}
+
+@keyframes glow {
+  0% {
+    filter: drop-shadow(0 0 6px #cf33d9) drop-shadow(0 0 6px #cf33d9);
+  }
+  50% {
+    filter: drop-shadow(0 0 1px #cf33d9) drop-shadow(0 0 1px #cf33d9);
+  }
+  100% {
+    filter: drop-shadow(0 0 6px #cf33d9) drop-shadow(0 0 6px #cf33d9);
+  }
+}
+
+@keyframes shiver {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-1px, 1px);
+  }
+  50% {
+    transform: translate(1px, -1px);
+  }
+  75% {
+    transform: translate(-1px, -1px);
+  }
+  100% {
+    transform: translate(1px, 1px);
+  }
+}
