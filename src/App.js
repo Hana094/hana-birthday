@@ -12,7 +12,7 @@ function App() {
         <nav className="nav">
           <ul>
             <li>
-              <Link className="metallic-link  subtitle" to="/">
+              <Link className="metallic-link  subtitle" to="/hana-birthday">
                 Home
               </Link>
             </li>
@@ -34,7 +34,7 @@ function App() {
           </ul>
         </nav>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/hana-birthday" element={<Home />} />
           <Route path="/whishlist" element={<Whishlist />} />
         </Routes>
       </Router>
