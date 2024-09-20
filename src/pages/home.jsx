@@ -6,8 +6,8 @@ const Home = () => {
   const [hideButton, setHideButton] = useState(false);
 
   const handlePlayVideo = () => {
-    videoRef.current.play();
     setHideButton(true);
+    videoRef.current.play();
   };
   return (
     <div className="main-container">
@@ -20,9 +20,9 @@ const Home = () => {
         </button>
       )}
 
-      <div className="video-container" hidden={!hideButton}>
-        <video ref={videoRef} width="500" controls>
-          <source src="/video/HanaBD.mp4" type="video/mp4" />
+      <div className="video-container">
+        <video ref={videoRef} width="100%" controls>
+          <source src="./video/HanaBD.mp4" type="video/mp4" />
         </video>
       </div>
     </div>
