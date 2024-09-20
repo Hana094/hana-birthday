@@ -7,6 +7,7 @@
 .nav ul {
   list-style-type: none;
   margin: 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   width: 70%;
@@ -15,6 +16,7 @@
 .main-container {
   position: relative;
   display: flex;
+  gap: 1rem;
   justify-content: center;
   flex-direction: column;
   align-items: center;
@@ -53,4 +55,13 @@
 
 .metallic-link:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 900px) {
+  .main-container {
+    gap: 2.5rem;
+  }
+  .nav ul {
+    width: 80%;
+  }
 }

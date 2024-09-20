@@ -12,14 +12,19 @@ function App() {
         <nav className="nav">
           <ul>
             <li>
-              <Link className="metallic-link  subtitle" to="/hana-birthday">
+              <Link className="metallic-link  subtitle" to="/">
                 Home
               </Link>
             </li>
             <li>
-              <Link className="metallic-link  subtitle" to="/wishlist">
+              <a
+                className="metallic-link  subtitle"
+                href="https://www.amazon.com.mx/registries/gl/guest-view/1SSO0XWA4NUO7"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Wishlist
-              </Link>
+              </a>
             </li>
             <li>
               <Link className="metallic-link  subtitle" to="/virtual">
@@ -29,7 +34,7 @@ function App() {
           </ul>
         </nav>
         <Routes>
-          <Route path="/hana-birthday" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/whishlist" element={<Whishlist />} />
         </Routes>
       </Router>
