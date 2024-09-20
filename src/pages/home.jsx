@@ -21,8 +21,8 @@ const Home = () => {
       )}
 
       <div className="video-container">
-        <video ref={videoRef} width="100%" controls>
-          <source src="./video/HanaBD.mp4" type="video/mp4" />
+        <video ref={videoRef} width="100%" controls hidden={!hideButton}>
+          <source src="/videos/HanaBD.mp4" type="video/mp4" />
         </video>
       </div>
     </div>
