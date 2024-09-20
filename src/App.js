@@ -1,7 +1,7 @@
 import "./css/main.css";
 import RetroBackground from "./components/reto-background";
 import Home from "./pages/home";
-import Whishlist from "./pages/whishlist";
+import Virtual from "./pages/virtual";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
         </nav>
         <Routes>
           <Route path="/hana-birthday" element={<Home />} />
-          <Route path="/whishlist" element={<Whishlist />} />
+          <Route path="/virtual" element={<Virtual />} />
         </Routes>
       </Router>
     </>

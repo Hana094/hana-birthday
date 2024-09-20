@@ -25,6 +25,10 @@ const Home = () => {
           <source src="/hana-birthday/videos/HanaBD.mp4" type="video/mp4" />
         </video>
       </div>
+      <div className="secondary-text">
+        Optional dress code: "If you were a pokemon Gym leader, what would you
+        wear?"
+      </div>
     </div>
   );
 };

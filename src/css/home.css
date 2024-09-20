@@ -24,10 +24,32 @@ https://comicfontsby.tehandeh.com/fonts/outrun-future/
   animation: glow 2.5s linear infinite;
 }
 
+.glowing-secondary {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-family: "Fascinate", system-ui;
+  font-weight: 800;
+  color: transparent;
+  position: relative;
+  display: block;
+  -webkit-text-stroke: 2px #f4c6f4;
+  animation: glow 2.5s linear infinite;
+}
+
 .normal {
   font-size: 3rem;
   font-family: "Fascinate", system-ui;
   font-weight: 400;
+  color: transparent;
+  position: relative;
+  display: block;
+  -webkit-text-stroke: 2px #f4c6f4;
+}
+
+.secondary-text {
+  font-size: 1.5rem;
+  font-family: "Roboto", system-ui;
+  font-weight: 700;
   color: transparent;
   position: relative;
   display: block;
@@ -40,8 +62,7 @@ https://comicfontsby.tehandeh.com/fonts/outrun-future/
   font-size: 4rem;
   color: #fa26f7;
   text-transform: uppercase;
-  letter-spacing: -10px;
-  transform: rotate(-3deg) skew(-3deg);
+  letter-spacing: -5px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #000;
   animation: shiver 0.2s infinite;
@@ -61,6 +82,7 @@ https://comicfontsby.tehandeh.com/fonts/outrun-future/
   cursor: pointer;
   font-family: "Fascinate", system-ui;
   font-weight: 400;
+  margin: auto;
 }
 
 .glass-button:hover {
@@ -114,7 +136,20 @@ https://comicfontsby.tehandeh.com/fonts/outrun-future/
   .glass-button {
     width: 70%;
   }
+  .normal {
+    font-size: 1.5rem;
+  }
+  .glowing {
+    font-size: 6rem;
+  }
+
+  .glowing-secondary {
+    font-size: 2.5rem;
+  }
   .video-container {
     width: 90%;
+  }
+  .secondary-text {
+    width: 95%;
   }
 }
