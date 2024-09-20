@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.fdbc788f.css",
-    "main.js": "/static/js/main.6b7aaeb2.js",
-    "index.html": "/index.html",
-    "main.fdbc788f.css.map": "/static/css/main.fdbc788f.css.map",
-    "main.6b7aaeb2.js.map": "/static/js/main.6b7aaeb2.js.map"
+    "main.css": "/hana-birthday/static/css/main.fdbc788f.css",
+    "main.js": "/hana-birthday/static/js/main.1c9f9f2d.js",
+    "index.html": "/hana-birthday/index.html",
+    "main.fdbc788f.css.map": "/hana-birthday/static/css/main.fdbc788f.css.map",
+    "main.1c9f9f2d.js.map": "/hana-birthday/static/js/main.1c9f9f2d.js.map"
   },
   "entrypoints": [
     "static/css/main.fdbc788f.css",
-    "static/js/main.6b7aaeb2.js"
+    "static/js/main.1c9f9f2d.js"
   ]
 }
