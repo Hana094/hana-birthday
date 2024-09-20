@@ -12,7 +12,7 @@ function App() {
         <nav className="nav">
           <ul>
             <li>
-              <Link className="metallic-link  subtitle" to="/">
+              <Link className="metallic-link  subtitle" to="/hana-birthday">
                 Home
               </Link>
             </li>
@@ -22,14 +22,14 @@ function App() {
               </Link>
             </li>
             <li>
-              <Link className="metallic-link  subtitle" to="/contact">
-                Where
+              <Link className="metallic-link  subtitle" to="/virtual">
+                Virtual
               </Link>
             </li>
           </ul>
         </nav>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/hana-birthday" element={<Home />} />
           <Route path="/whishlist" element={<Whishlist />} />
         </Routes>
       </Router>
