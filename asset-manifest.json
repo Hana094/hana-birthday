@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hana-birthday/static/css/main.f13f4e14.css",
+    "main.js": "/hana-birthday/static/js/main.486d0c56.js",
+    "index.html": "/hana-birthday/index.html",
+    "main.f13f4e14.css.map": "/hana-birthday/static/css/main.f13f4e14.css.map",
+    "main.486d0c56.js.map": "/hana-birthday/static/js/main.486d0c56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f13f4e14.css",
+    "static/js/main.486d0c56.js"
+  ]
+}
