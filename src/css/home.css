@@ -150,6 +150,8 @@ https://comicfontsby.tehandeh.com/fonts/outrun-future/
     width: 90%;
   }
   .secondary-text {
+    font-weight: 200;
     width: 95%;
+    font-size: 1rem;
   }
 }
