@@ -3,7 +3,7 @@ import "../css/home.css";
 import "../css/main.css";
 const Virtual = () => {
   const handleClick = () => {
-    const discordInviteUrl = "https://discord.gg/ycWj6JMy"; // Replace with your Discord invite link
+    const discordInviteUrl = "Link"; // Replace with your Discord invite link
     window.open(discordInviteUrl, "_blank", "noopener,noreferrer");
   };
   return (
@@ -19,7 +19,7 @@ const Virtual = () => {
           of Don't Starve together.
         </div>
         <div className="secondary-text">
-          We'll be waiting for you on our Discord.
+          We'll be waiting for you on our Discord on september 27 at 7pm.
         </div>
         <div className="outrun">One of us</div>
         <button className="glass-button" onClick={handleClick}>

@@ -19,7 +19,7 @@ function App() {
             <li>
               <a
                 className="metallic-link  subtitle"
-                href="https://www.amazon.com.mx/registries/gl/guest-view/1SSO0XWA4NUO7"
+                href="Link to a wishlist"
                 target="_blank"
                 rel="noopener noreferrer"
               >
